@@ -11,4 +11,9 @@
       <image:caption>Newsletter growth-readiness score audit preview</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://Viyozc.github.io/newsletterly-ai/blog/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
