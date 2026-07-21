@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Viyozc.github.io/newsletterly-ai//sitemap.xml

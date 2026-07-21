@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newsletterly — Is your newsletter ready to grow? (free growth-readiness audit)</title>
+  <meta name="description" content="Newsletterly scores your newsletter like a growth operator would — subject-line strength, preview text, send cadence, deliverability, CTA clarity, and niche fit. Free 0–100 audit, no signup. Find out if you're on track for the top 10%." />
+  <link rel="canonical" href="https://Viyozc.github.io/newsletterly-ai/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Newsletterly — Is your newsletter ready to grow? (free growth-readiness audit)" />
+  <meta property="og:description" content="Newsletterly scores your newsletter like a growth operator would — subject-line strength, preview text, send cadence, deliverability, CTA clarity, and niche fit. Free 0–100 audit, no signup." />
+  <meta property="og:url" content="https://Viyozc.github.io/newsletterly-ai/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Newsletterly — Is your newsletter ready to grow? (free growth-readiness audit)" />
+  <meta name="twitter:description" content="Newsletterly scores your newsletter like a growth operator would — subject-line strength, preview text, send cadence, deliverability, CTA clarity, and niche fit. Free 0–100 audit, no signup." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <script type="application/ld+json">
+  {{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Newsletterly","url":"https://Viyozc.github.io/newsletterly-ai/","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{{"@type":"Offer","price":"0","priceCurrency":"USD"}}}}
+  </script>
+</head>
+<body>
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Newsletterly<span class="brand-dot">.</span></a>
+      <nav class="nav-links">
+        <a href="#audit">Free Audit</a>
+        <a href="#how">How it works</a>
+        <a href="#why">Why it matters</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="#audit">Run free audit</a>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="badge">For Substack, Beehiiv &amp; Ghost creators</span>
+        <h1>Is your newsletter <span class="hl">ready to grow?</span></h1>
+        <p class="lede">
+          The median newsletter converts just <strong>0.62%</strong> of readers to paid. The top 10% take
+          <strong>62%</strong> of all subscription revenue. Newsletterly scores your newsletter on the six things that
+          decide which side you land on — and shows you exactly how to climb.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#audit">Run a free Growth Audit →</a>
+          <span class="hero-note">No signup required · 60 seconds · 100% free</span>
+        </div>
+        <div class="hero-stats">
+          <div><strong>6</strong><span>growth signals scored</span></div>
+          <div><strong>0–100</strong><span>readiness score</span></div>
+          <div><strong>62%</strong><span>revenue held by top 10%</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="score-card">
+          <div class="score-ring"><span class="score-num" id="heroScore">—</span><span class="score-grad">/100</span></div>
+          <div class="score-meta">
+            <span class="grade" id="heroGrade">Grade</span>
+            <span class="score-sub">Your newsletter's readiness</span>
+          </div>
+          <div class="mini-bars">
+            <div class="mbar"><i style="width:72%"></i><span>Subject lines</span></div>
+            <div class="mbar"><i style="width:64%"></i><span>Preview text</span></div>
+            <div class="mbar"><i style="width:60%"></i><span>Send cadence</span></div>
+            <div class="mbar"><i style="width:55%"></i><span>Deliverability</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Audit Tool ===== -->
+  <section class="audit" id="audit">
+    <div class="container">
+      <div class="section-head">
+        <h2>Free Newsletter Growth-Readiness Audit</h2>
+        <p>Tell us about your current newsletter. We'll score it on the six signals that separate growing newsletters from stalled ones — and hand you a prioritized fix list. No account, no credit card.</p>
+      </div>
+
+      <div class="audit-grid">
+        <!-- Input -->
+        <form class="audit-form" id="auditForm" novalidate>
+          <label class="field">
+            <span>Which platform is your newsletter on?</span>
+            <select id="fPlatform">
+              <option value="substack">Substack</option>
+              <option value="beehiiv">Beehiiv</option>
+              <option value="ghost">Ghost</option>
+              <option value="convertkit">Kit (ConvertKit)</option>
+              <option value="mailchimp">Mailchimp</option>
+              <option value="other">Other / self-hosted</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Paste your last 5–10 subject lines (one per line)</span>
+            <textarea id="fSubjects" rows="4" placeholder="How we 3x'd open rates in a month&#10;The AI tool nobody is talking about&#10;You're probably making this mistake"></textarea>
+          </label>
+
+          <label class="field">
+            <span>Do you use the preview-text slot (the line under the subject)?</span>
+            <select id="fPreview">
+              <option value="yes">Yes — a real second hook</option>
+              <option value="partial">Sometimes / it repeats the subject</option>
+              <option value="no">No — it's blank or wasted</option>
+            </select>
+          </label>
+
+          <div class="field-row">
+            <label class="field">
+              <span>How often do you send?</span>
+              <select id="fCadence">
+                <option value="weekly">Weekly</option>
+                <option value="biweekly">Every 2 weeks</option>
+                <option value="daily">Daily</option>
+                <option value="monthly">Monthly</option>
+                <option value="inconsistent">Inconsistent / whenever</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Clear CTA in every issue?</span>
+              <select id="fCta">
+                <option value="yes">Yes — one clear ask</option>
+                <option value="sometimes">Sometimes</option>
+                <option value="no">No / vague</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span>Authentication &amp; List-Unsubscribe set up?</span>
+              <select id="fDeliver">
+                <option value="yes">Yes (SPF/DKIM/DMARC + unsub)</option>
+                <option value="partial">Partial</option>
+                <option value="no">No / not sure</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Your niche</span>
+              <select id="fNiche">
+                <option value="finance">Finance / investing</option>
+                <option value="aitech">AI / tech</option>
+                <option value="b2b">B2B / SaaS</option>
+                <option value="career">Career / productivity</option>
+                <option value="health">Health / wellness</option>
+                <option value="news">News / commentary</option>
+                <option value="lifestyle">Lifestyle / general</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Run my free audit →</button>
+          <p class="form-fine">Everything runs in your browser. We never store your subject lines until you ask us to email the report.</p>
+        </form>
+
+        <!-- Result -->
+        <div class="audit-result" id="auditResult" hidden>
+          <div class="result-top">
+            <div class="score-ring lg">
+              <span class="score-num" id="resScore">0</span>
+              <span class="score-grad">/100</span>
+            </div>
+            <div>
+              <span class="grade big" id="resGrade">—</span>
+              <p class="result-sub" id="resSummary">—</p>
+            </div>
+          </div>
+
+          <div class="bars" id="resBars"></div>
+
+          <div class="tips">
+            <h3>What to fix first</h3>
+            <ul id="resTips"></ul>
+          </div>
+
+          <form class="email-capture" id="emailForm" action="https://formspree.io/f/meeyzkdp" method="POST">
+            <label for="fEmail">Get the full report + weekly newsletter growth tips by email</label>
+            <div class="email-row">
+              <input type="email" id="fEmail" name="email" placeholder="you@email.com" required />
+              <button type="submit" class="btn btn-primary">Email my report</button>
+            </div>
+            <p class="form-fine" id="emailNote">No spam. Unsubscribe anytime.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How it works ===== -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-head">
+        <h2>How Newsletterly works</h2>
+        <p>Three steps from a stalled list to one that compounds.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">1</span>
+          <h3>Audit</h3>
+          <p>Paste a few details about your newsletter. Newsletterly scores six growth signals buyers and algorithms actually respond to — not vanity metrics.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">2</span>
+          <h3>Improve</h3>
+          <p>Get a prioritized fix list — the exact subject-line, cadence, and CTA changes that move you toward the top 10%.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">3</span>
+          <h3>Grow</h3>
+          <p>Apply the changes, watch open and paid-conversion climb, and repeat across every issue. Compounding beats guessing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why ===== -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why newsletter growth is a power-law game</h2>
+        <p>The average newsletter barely earns. The top decile owns the revenue. Here's the gap.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <h3>0.62% vs 62%</h3>
+          <p>The median newsletter converts 0.62% of readers to paid. The top 10% capture 62% of all subscription revenue. Readiness is the divide.</p>
+        </div>
+        <div class="why-card">
+          <h3>Subject lines decide opens</h3>
+          <p>64% of recipients decide whether to open based on the subject line alone; 69% mark spam from it. A weak line costs you the send.</p>
+        </div>
+        <div class="why-card">
+          <h3>Cadence builds the habit</h3>
+          <p>Inconsistent sending kills momentum. Creators who commit to a rhythm (weekly wins for most) compound an audience that expects the next issue.</p>
+        </div>
+        <div class="why-card">
+          <h3>Niche sets the ceiling</h3>
+          <p>Finance, AI/tech, and B2B newsletters command $50–150+ CPMs. A small, well-fit list in a high-CPM niche often out-earns a huge generic one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Is the audit really free?</summary>
+          <p>Yes. The on-page audit runs entirely in your browser and costs nothing. No account needed.</p>
+        </details>
+        <details>
+          <summary>Do I need to connect my newsletter?</summary>
+          <p>No. You describe your setup with a few clicks and paste recent subject lines. Newsletterly scores the strategy, not your private subscriber data — so it works before you've optimized anything.</p>
+        </details>
+        <details>
+          <summary>How is the score calculated?</summary>
+          <p>We weight subject-line strength, preview-text use, send cadence &amp; consistency, deliverability hygiene, CTA clarity, and niche-fit / monetization potential — the signals that drive open rates and paid conversion.</p>
+        </details>
+        <details>
+          <summary>Will this guarantee I hit the top 10%?</summary>
+          <p>No tool can. But the gap between median and top-decile newsletters is mostly operational — cadence, subject lines, CTA, niche fit. Newsletterly shows you exactly where your gaps are.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="#top">Newsletterly<span class="brand-dot">.</span></a>
+        <p class="footer-sub">Growth-readiness audits for newsletter creators. AI-assisted, human-approved.</p>
+      </div>
+            <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:13px;margin-top:10px;">
+        <span style="color:var(--muted);font-weight:600;">More free audit tools:</span>
+<a href="https://Viyozc.github.io/listora/" style="color:var(--brand-dk);font-weight:600;">Listora</a><a href="https://Viyozc.github.io/booklisting-ai/" style="color:var(--brand-dk);font-weight:600;">BookListing</a><a href="https://Viyozc.github.io/mockly-ai/" style="color:var(--brand-dk);font-weight:600;">Mockly</a><a href="https://Viyozc.github.io/newsletterly-ai/" style="color:var(--brand-dk);font-weight:600;">Newsletterly</a>
+      </div>
+      <p class="footer-fine">Newsletterly is an independent tool and is not affiliated with Substack, Beehiiv, Ghost, or Kit. Trademarks belong to their owners.</p>
+    </div>
+  </footer>
+
+  <script src="assets/audit.js"></script>
+</body>
+</html>
