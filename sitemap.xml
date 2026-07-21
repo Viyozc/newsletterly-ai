@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://Viyozc.github.io/newsletterly-ai/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://Viyozc.github.io/newsletterly-ai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://Viyozc.github.io/newsletterly-ai/assets/og-image.png</image:loc>
+      <image:title>Newsletterly — Newsletter Growth Audit</image:title>
+      <image:caption>Newsletter growth-readiness score audit preview</image:caption>
+    </image:image>
+  </url>
 </urlset>
