@@ -1,0 +1,19 @@
+# Newsletterly
+
+> Newsletterly scores your newsletter like a growth operator would — subject-line strength, preview text, send cadence, deliverability, CTA clarity, and niche fit. Free 0–100 audit, no signup. Find out if you're on track for the top 10%.
+
+Canonical host: https://newsletterly.aiyes.space
+
+## Core pages
+
+- [Home](https://newsletterly.aiyes.space/)
+
+## Blog
+
+- [Newsletter Growth: Subject Lines, Cadence & Deliverability That Convert](https://newsletterly.aiyes.space/blog/)
+- [What to Write in a Newsletter: 12 Ideas That Keep Subscribers](https://newsletterly.aiyes.space/blog/what-to-write-newsletter/)
+
+## Canonical discovery
+
+- [Sitemap](https://newsletterly.aiyes.space/sitemap.xml)
+- [Robots](https://newsletterly.aiyes.space/robots.txt)
